@@ -1,0 +1,139 @@
+* {
+    font-size: 20px;
+}
+
+.container {
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.barra_busqueda {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add {
+    width: 100px;
+    height: 40px;
+    background-color: #575C3E;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.ipt-search {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.btn-search {
+    width: 100px;
+    height: 40px;
+    background-color: #575C3E;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container-resena {
+    width: calc(100% - 300px);
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 70px;
+    overflow-y: auto;
+    background-color: #3e3e3e;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+hr {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    margin: 0;
+}
+
+.titulo-container {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.container-resenia_child {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.resenia {
+    width: 40%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.letras {
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    overflow: hidden;
+    position: relative;
+}
+
+.contenido-resena {
+    white-space: pre-line;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: 90%;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.btn-edit,
+.btn-delete {
+    margin: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: #575C3E;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    left: 10px;
+    top: 10px;
+}

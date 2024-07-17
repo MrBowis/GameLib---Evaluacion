@@ -1,0 +1,189 @@
+.cabeza {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.close {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+
+.logIn__body, .registro__body {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logIn, .registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logIn__article, .registro__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.marca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.marca__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.marca__logo {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.marca__titulo {
+    color: #000;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.logIn__article__h2, .registro__article__h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+}
+
+.form-LogIn, .form-registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form-LogIn__h2, .form-registro__h2 {
+    margin: 30px;
+    padding: 0;
+}
+
+.form-LogIn__article-section, .form-registro__article-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-LogIn__article-section-input,
+.form-registro__article-section-input,
+.form-LogIn__article-section-label,
+.form-registro__article-section-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 0;
+}
+
+.form-LogIn__article-section-input, .form-registro__article-section-input {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+    outline-style: none;
+    color: #000;
+}
+
+.form-LogIn__input, .form-registro__input {
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e334e5c;
+}
+
+.form-LogIn__input:hover, .form-registro__input:hover {
+    background-color: #2E334E;
+    cursor: pointer;
+    color: #fff;
+}
+
+.form-LogIn__msg, .form-registro__msg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-LogIn__msg button, .form-registro__msg button {
+    color: blue;
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.form-LogIn__msg button::before {
+    content: 'No tienes cuenta, registrate ';
+    color: #000;
+    cursor: default;
+    font-size: 0.8rem;
+}
+
+.form-registro__msg button::before {
+    content: 'Ya tienes cuenta, ingresa ';
+    color: #000;
+    cursor: default;
+    font-size: 0.8rem;
+}
+
+.form-LogIn__msg button::after, .form-registro__msg button::after {
+    content: '.';
+    color: #000;
+    cursor: default;
+    font-size: 0.8rem;
+}
+
+.logInHide, .registroHide {
+    display: none;
+}

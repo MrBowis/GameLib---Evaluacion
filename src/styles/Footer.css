@@ -1,0 +1,23 @@
+footer {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0 0;
+    padding: 50px;
+    background-color: #515151;
+    color: #fff;
+}
+
+.footer__right {
+    float: right;
+}
+
+.img__footer {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin: 0 10px;
+}
